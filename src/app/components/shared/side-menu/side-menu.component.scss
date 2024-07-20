@@ -1,0 +1,13 @@
+#project-nav {
+    .project-nav-item {
+        cursor: pointer;
+        padding: 0.2rem;
+
+        // Children
+        span {
+            i {
+                margin-right: 0.4rem;
+            }
+        }
+    }
+}
