@@ -1,1 +1,49 @@
-<p>project-details works!</p>
+<div class="container-fluid py-3 px-4">
+    <h1>Manage Project</h1>
+    <div class="bg-body-tertiary p-3 rounded mb-3">
+        <div class="row">
+            <div class="col-md-8 col-lg-10">
+                <h2>Project Name</h2>
+                <h3 class="fs-5"><i class="bi bi-circle-fill"></i> Subject Name</h3>
+                <h4 class="fs-5">12 Jan 2025</h4>
+            </div>
+            <div class="col-md-4 col-lg-2">
+                <button class="btn btn-outline-success mb-2 w-100">Add Task</button><br>
+                <button class="btn btn-outline-danger mb-2 w-100">Delete Project</button><br>
+                <button class="btn btn-primary w-100">Mark as Completed</button><br>
+            </div>
+        </div>
+    </div>
+    <div class="bg-body-tertiary d-flex align-items-stretch p-3 rounded">
+        <table class="table table-light table-striped align-middle">
+            <thead>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Description</th>
+                    <th>Due Date</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Task 1</td>
+                    <td>This is an example of a task description</td>
+                    <td>12 June 2024</td>
+                    <td>
+                        <button class="btn btn-outline-danger mx-1" title="Delete"><i class="bi bi-trash"></i></button>
+                        <button class="btn btn-outline-warning mx-1" title="Edit"><i class="bi bi-pencil"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Task 2</td>
+                    <td>This is an example of a task description</td>
+                    <td>24 Aug 2024</td>
+                    <td>
+                        <button class="btn btn-outline-danger mx-1" title="Delete"><i class="bi bi-trash"></i></button>
+                        <button class="btn btn-outline-warning mx-1" title="Edit"><i class="bi bi-pencil"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
